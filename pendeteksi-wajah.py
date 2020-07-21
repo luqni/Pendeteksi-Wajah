@@ -63,7 +63,7 @@ def resize_with_pad(img, shape=[640,640]):
 
     return cv2.resize(out, (w,h))
 
-img = plt.imread('/content/drive/My Drive/sample1.jpg')
+img = plt.imread('/content/drive/My Drive/sample1.jpg') #path lokasi gambar
 img = resize_with_pad(img)
 
 plt.imshow(img) #menampilkan gambar
