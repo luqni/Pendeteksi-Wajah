@@ -68,6 +68,8 @@ img = resize_with_pad(img)
 
 plt.imshow(img) #menampilkan gambar
 
+#Prediksi
+
 detector = s3fd('s3fd.pb')
 outputs = detector(img)
 
